@@ -48,12 +48,11 @@ Receiver flow:
 ## Feature 3 - Notifying collaborators
 * How are recipients notified of files shared?
 
-# Wireframes
+# Wireframe ideas to answer questions
 We use wireframes to try out different answers to each of the questions around how to build features. 
 
 ## Feature 1 - The act of sharing
-### How do users initiate the share flow?
-Ideas:
+### How do users initiate the share flow? 
 1. Directly from file system 
 2. From file system dialogue menu
 3. From recent notebooks
@@ -63,7 +62,6 @@ Decision: 2 and 3 both are necessarily. As they both the recent and filesystem v
 <img src="http://i.imgur.com/QgWcakW.jpg">
 
 ### How do users add/remove sharing recipients?
-Ideas:
 1. Add via email
 2. Previous collaborators
 3. People sharing a same networked license
@@ -72,7 +70,6 @@ Decision: Primary box to add via email, secondary “shortcut” panels for peop
 <img src="http://i.imgur.com/QyNQjnB.jpg">
 
 ### How do users change permission levels?
-Ideas
 1. Default to editor, then change either to view-only or admin
 2. Ask explicitly what level of permission is needed every time.
 
@@ -81,7 +78,6 @@ Decision: In our case, we assume that the teach is sharing on Mathematica so tha
 
 ## Feature 2 - Displaying shared status
 ### How are collaborators and their status displayed?
-Ideas:
 1. Next to files
 2. On the sharing setting overlay
 
@@ -89,7 +85,6 @@ Decision: 1 and 2. Next to files provides a quick overview of both who and how m
 
 
 ### How are edits to the file displayed?
-Ideas:
 1. Date shared and date of last edit only
 2. Timestamped history of all edits in a dashboard
 3. Button to signal edit completion or “ready for review”
@@ -99,12 +94,12 @@ Decision: 1 should be enough for small teams. Maybe an eventual enterprise versi
 
 ## Feature 3 - Notifying collaborators
 ### How are recipients notified of files shared?
-Ideas:
 1. Simple email would suffice. 
 
 Decision: Indeed it should.
 
 ## User test
 Because of the short timeframe of the exercise, it was difficult to schedule an user test, but here are some of the things I’d like looking to test if I had a chance to:
+
 1. How easily can testers accomplish all tasks related to sharing
 2. Are the placement of the different elements intuitive and expected for testers
