@@ -16,6 +16,8 @@ Sample: 2 quick conversations with friends who use Mathematica in grad school. A
 
 ## How do users currently organize their Mathematica files?
 While some users use GitHub, Dropbox seems to be the most popular option. Most email files or use Dropbox links. Few will use GitHub. Most use the native interface of the app. 
+<img src="http://i.imgur.com/4naahiS.png">
+
 ## Why do user usually share Mathematica files?
 The most frequent sharing use case is sharing between colleagues at a lab of 5-10 people. Sometimes, users share files with themselves to transfer from one computer to another. 
 ## What are the technical or organizational constraints around file management, version control and collaboration?
