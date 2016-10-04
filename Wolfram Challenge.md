@@ -24,7 +24,6 @@ Assumptions:
 * Collaborative file editing is also not in the short term road map. Any edits will be done at a file level.
 * The collaboration feature will first be implemented on the web Mathematica, from which it is currently harder to share files.
 
-
 # User flow
 Initiator flow: 
 1. Initiate share
@@ -61,7 +60,8 @@ Ideas:
 
 Decision: 2 and 3 both are necessarily. As they both the recent and filesystem views display the same files, users should be take action in the same way in both views. 1 would be overkill, because sharing is not used as often as all the other menu options combined.
 <img src="http://imgur.com/B06N1Ol.jpg">
-<img src="http://imgur.com/B06N1Ol.jpg">
+<img src="http://i.imgur.com/QgWcakW.jpg">
+
 ### How do users add/remove sharing recipients?
 Ideas:
 1. Add via email
@@ -69,9 +69,16 @@ Ideas:
 3. People sharing a same networked license
 
 Decision: Primary box to add via email, secondary “shortcut” panels for people you might already want to collaborate with.
+<img src="http://i.imgur.com/QyNQjnB.jpg">
+
 ### How do users change permission levels?
-1. Toggle between: admin, edit, view
-Decision:
+Ideas
+1. Default to editor, then change either to view-only or admin
+2. Ask explicitly what level of permission is needed every time.
+
+Decision: In our case, we assume that the teach is sharing on Mathematica so that others students can edit. Therefore default to this permission can save users a click. 
+<img src="http://i.imgur.com/Aok32kq.png">
+
 ## Feature 2 - Displaying shared status
 ### How are collaborators and their status displayed?
 Ideas:
@@ -80,13 +87,15 @@ Ideas:
 
 Decision: 1 and 2. Next to files provides a quick overview of both who and how many people have have access. A more detailed view of the different collaborator and their permission-level can be viewed from the setting overlay. Finally 3 seems like overkill as typical Mathematica teams are relatively small.
 
+
 ### How are edits to the file displayed?
 Ideas:
-1. Date of last edit and collaborator only
+1. Date shared and date of last edit only
 2. Timestamped history of all edits in a dashboard
+3. Button to signal edit completion or “ready for review”
 
-Decision: 1 should be enough for small teams. Maybe an eventual enterprise version could use an edit dashboard.
-
+Decision: 1 should be enough for small teams. Maybe an eventual enterprise version could use an edit dashboard like in 2. 3 seems like a good idea for our specific teacher/student scenario, but might not be applicable generally.
+<img src="http://i.imgur.com/xNgg99A.png">
 
 ## Feature 3 - Notifying collaborators
 ### How are recipients notified of files shared?
