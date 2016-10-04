@@ -82,7 +82,8 @@ Decision: In our case, we assume that the teach is sharing on Mathematica so tha
 2. On the sharing setting overlay
 
 Decision: 1 and 2. Next to files provides a quick overview of both who and how many people have have access. A more detailed view of the different collaborator and their permission-level can be viewed from the setting overlay. Finally 3 seems like overkill as typical Mathematica teams are relatively small.
-
+<img src="http://i.imgur.com/gJgWND6.jpg">
+<img src="http://i.imgur.com/Aok32kq.png">
 
 ### How are edits to the file displayed?
 1. Date shared and date of last edit only
