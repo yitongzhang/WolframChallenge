@@ -26,9 +26,9 @@ Assumptions:
 
 # User flow
 Initiator flow: 
-1. Initiate share
-2. Set share settings
-3. See the status of the collaborators on the file
+1.Initiate share
+2.Set share settings
+3.See the status of the collaborators on the file
 
 Receiver flow: 
 1. Be notified of shared file 
