@@ -61,7 +61,7 @@ We use wireframes to try out different answers to each of the questions around h
 2. From file system dialogue menu
 3. From recent notebooks
 
-Decision: 2 and 3 both are necessarily. As they both the recent and filesystem views display the same files, users should be take action in the same way in both views. 1 would be overkill, because sharing is not used as often as all the other menu options combined.
+Decision: 2 and 3 both are necessarily. Because the recent and filesystem views display the same files, users should be take action in the same way in both views. 1 would be overkill, because sharing is not used as often as all the other menu options combined.
 <img src="http://imgur.com/B06N1Ol.jpg">
 <img src="http://i.imgur.com/QgWcakW.jpg">
 
