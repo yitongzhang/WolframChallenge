@@ -4,10 +4,12 @@ There is also no wrong way to illustrate your recommendations - research reports
 # The problem
 ## Status quo:
 Save files to Desktop, share with others using email, school web portal, dropbox, instructor’s personal site or GitHub.
+
 ## What’s wrong with the status quo?
 - version control: sharing files directly creates version management issues.
 - permissions: sharing files means the only permission is full permission
 - friction: using another tool to share and manage files creates extra steps for the users
+
 ## Problem statement:
 Mathematica users want to share files with one another with varying levels of read/write permissions
 
